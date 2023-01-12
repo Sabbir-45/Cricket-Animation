@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* sob gula coor aksate change korar jonno variable dicleare kora jai */
+        /* :root use korte hobe */
+        /* aksate central decleare koear por amra sate pura color change korte parbo  
+      var() amader use korte hobe*/
+        :root {
+            --primary-color: green;
+            --secondary-color: red;
+            --single-border: 2px solid blue;
+        }
+
+        h1 {
+            color: var(--primary-color);
+
+        }
+
+        #heading-3 {
+            border: 2px solid var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        p {
+            border-bottom: var(--single-border);
+        }
+
+        .box {
+            background-color: var(--primary-color);
+            width: calc(100% -50px);
+            height: 100px;
+        }
+
+        .pond {
+            background-color: var(--primary-color);
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <h1>
+        <heading id="heading-1">My Storng Heading-1</heading>
+    </h1>
+    <h1>
+        <heading id="heading-2">My Storng Heading-2</heading>
+    </h1>
+    <h1>
+        <heading id="heading-3">My Storng Heading-3</heading>
+    </h1>
+    <h1>
+        <heading id="heading-4">My Storng Heading-4</heading>
+    </h1>
+    <p>My simple talk</p>
+    <div class="box">
+        <h3>My Boxing Box</h3>
+    </div>
+    <div class="pond">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eligendi dolore officiis recusandae sunt
+            aut sequi ad, ducimus magnam minus deleniti nulla debitis exercitationem qui aperiam. Itaque tempore saepe
+            nemo?</p>
+    </div>
+    <!-- <h1>My Strong Heading-1</h1>
+    <h1>My Strong Heading-2</h1>
+    <h1>My Strong Heading-3</h1>
+    <h1>My Strong Heading-4</h1> -->
+</body>
+
+</html>
